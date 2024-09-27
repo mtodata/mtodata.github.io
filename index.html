@@ -18,63 +18,13 @@
         <h2 style="color:blanchedalmond;">Minnesota Traffic Observatory Test</h2>
       </div>
       <div class="header-links">
-        <a href="#">Dashboard</a>
-        <a href="#">Projects</a>
-        <a href="download_guide.html">Downloads</a>
-        <a href="#">Models</a>
-        <a href="#">Notebooks</a>
-        <a href="#">Jobs</a>
+        <a href="index.html">Home</a>
+        <a href="projectList.html">Projects</a>
+        <a href="download_guide.html">Download Guide</a>
+        <a href="globus_test.html">test</a>
       </div>
 
-      <script>
-        const manager = globus.authorization.create({
-          /**
-           * Your registered Globus Application client ID.
-           * @see https://docs.globus.org/api/auth/developer-guide/#developing-apps
-           */
-          client: '7fe07ce5-3358-403a-b9ee-086e216726fe',
-          /**
-           * The redirect URL for your application; For this example, this is where **this** page is hosted.
-           * This URL should also be added to your Globus Application configuration.
-           */
-          redirect: 'https://dev9awesome.github.io/mto-archival-website/',
-          /**
-           * Known scopes required by your application. This example will request
-           * a Transfer scope based on it's usage of `ls`.
-           */
-          scopes: 'urn:globus:auth:scope:transfer.api.globus.org:all',
-          /**
-           * This will enable the use of refresh tokens - you probably want this!
-           */
-          useRefreshTokens: true,
-        });
-
-        if(!manager.authenticated && !window.location.href.includes('code')){  
-          manager.login();
-        }
-
-        manager.handleCodeRedirect()
-        const COLLECTION_ID = '5b8172bb-7ae0-4e3f-b68e-91fc7550c114'
-
-        globus.transfer.fileOperations.ls(COLLECTION_ID, {
-          headers: {
-            Authorization: 'Bearer ${manager.tokens.transfer.access_token}'
-          }
-        })
-        .then((res) => res.json())
-        .then((body) => {
-          documnet.getElementById('contents').textContent = JSON.stringify(body)
-       
-          const isError = globus.errors.isErrorWellFormed(body);
-          if(isError){
-            manager.handleErrorResponse();
-          }
-        })
-
-
-
-
-      </script>
+      <div id="contents"></div>
 
       <div>
         <button onclick="showForm()">New</button>
@@ -220,6 +170,7 @@
                   ''
               }
             </div>` : ''}
+          <p><strong>Project Page:</strong> <a href="ProjectPages/${project.name.toLowerCase().replace(/\s+/g, '_')}.html" target="_blank">${project.name} </a></p>
           <p><strong>Data Download:</strong> <a href="${project.dataDownloadLink}" target="_blank">Download </a></p>
           <p><strong>Purpose:</strong> ${project.purpose}</p>
           <p><strong>Research Paper:</strong> <a href="${project.researchPaperLink}" target="_blank">Link</a></p>
