@@ -1,0 +1,16 @@
+{
+    "name": "Evaluation of Safety and Mobility of Two-Lane Roundabouts",
+    "location": "185th St W and Kenwood Trail, Lakeville, MN 55044",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "purpose": "Compare single-lane and two-lane roundabouts. Showed that multilane roundabouts are less safe than single lane ones",
+    "researchPaperLink": "https://hdl.handle.net/11299/190714",
+    "author": "John Hourdos, Gordon Parikh",
+    "image": "multilane_roundabout.png",
+    "metadata": {
+        "resolution": "1080p",
+        "dates": "January 2022",
+        "size": "1420 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    }
+}

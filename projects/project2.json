@@ -1,0 +1,18 @@
+{
+    "name": "Project 2",
+    "location": "456 Elm St, St. Paul, MN",
+    "videoExcerpt": "",
+    "videoType": "",
+    "videoLink": "",
+    "dataDownloadLink": "https://example.com/data2",
+    "purpose": "To analyze traffic flow",
+    "researchPaperLink": "https://example.com/paper2",
+    "author": "Seongjin Choi",
+    "image": "sjchoi.jpg",
+    "metadata": {
+        "resolution": "720p",
+        "dates": "February 2022",
+        "size": "5 GB",
+        "hardware": "Traffic sensors"
+    }
+}

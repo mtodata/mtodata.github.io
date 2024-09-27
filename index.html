@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minnesota Traffic Observatory</title>
+    <script src="https://unpkg.com/@globus/sdk/umd/globus.production.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" />
+    <link rel ="stylesheet" href="styles.css"/>
+    
+
+</head> 
+<body class="group/design-root">
+  <div class="layout-container">
+    <header>
+      <div>
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+        <h2 style="color:blanchedalmond;">Minnesota Traffic Observatory Test</h2>
+      </div>
+      <div class="header-links">
+        <a href="#">Dashboard</a>
+        <a href="#">Projects</a>
+        <a href="download_guide.html">Downloads</a>
+        <a href="#">Models</a>
+        <a href="#">Notebooks</a>
+        <a href="#">Jobs</a>
+      </div>
+
+      <script>
+        const manager = globus.authorization.create({
+          /**
+           * Your registered Globus Application client ID.
+           * @see https://docs.globus.org/api/auth/developer-guide/#developing-apps
+           */
+          client: '7fe07ce5-3358-403a-b9ee-086e216726fe',
+          /**
+           * The redirect URL for your application; For this example, this is where **this** page is hosted.
+           * This URL should also be added to your Globus Application configuration.
+           */
+          redirect: 'https://dev9awesome.github.io/mto-archival-website/',
+          /**
+           * Known scopes required by your application. This example will request
+           * a Transfer scope based on it's usage of `ls`.
+           */
+          scopes: 'urn:globus:auth:scope:transfer.api.globus.org:all',
+          /**
+           * This will enable the use of refresh tokens - you probably want this!
+           */
+          useRefreshTokens: true,
+        });
+
+        if(!manager.authenticated && !window.location.href.includes('code')){  
+          manager.login();
+        }
+
+        manager.handleCodeRedirect()
+        const COLLECTION_ID = '5b8172bb-7ae0-4e3f-b68e-91fc7550c114'
+
+        globus.transfer.fileOperations.ls(COLLECTION_ID, {
+          headers: {
+            Authorization: 'Bearer ${manager.tokens.transfer.access_token}'
+          }
+        })
+        .then((res) => res.json())
+        .then((body) => {
+          documnet.getElementById('contents').textContent = JSON.stringify(body)
+       
+          const isError = globus.errors.isErrorWellFormed(body);
+          if(isError){
+            manager.handleErrorResponse();
+          }
+        })
+
+
+
+
+      </script>
+
+      <div>
+        <button onclick="showForm()">New</button>
+        <button class="secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+            <path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path>
+          </svg>
+        </button>
+        <button class="secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+            <path d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"></path>
+          </svg>
+        </button>
+        <div class="header-avatar"></div>
+      </div>
+    </header>
+    <div class="layout-content-container">
+      <h2>Featured Project</h2>
+      <div class="project-card">
+        <div>
+          <p>Project</p>
+          <p>Traffic Analysis</p>
+          <p>by Minnesota Traffic Observatory</p>
+          <button>View Details</button>
+        </div>
+        <img src="roundabout.jpg" alt="Traffic Analysis">
+      </div>
+      <h2>
+        <div>
+          <img src="main_2.png" alt="3d Visualized Map of traffic across Minnesota - the Metro area is the most dense">
+        </div>
+      </h2>
+      <h2>Projects</h2>
+      <div class="search-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+          <path d="M232.49,215,184.91,167.42a84,84,0,1,0-17.49,17.49L215,232.49a12,12,0,0,0,17-17ZM48,112A64,64,0,1,1,112,176,64.07,64.07,0,0,1,48,112Z"></path>
+        </svg>
+        <input type="text" placeholder="Search Projects">
+      </div>
+      <div id="projects"></div>
+    </div>
+  </div>
+
+  <div id="formPage" class="form-container">
+    <h2>Add New Project</h2>
+    <form id="projectForm">
+      <label for="name">Project Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+      
+      <label for="videoExcerpt">Video Excerpt:</label>
+      <textarea id="videoExcerpt" name="videoExcerpt"></textarea>
+      
+      <label for="videoType">Video Type:</label>
+      <select id="videoType" name="videoType">
+        <option value="">None</option>
+        <option value="youtube">YouTube</option>
+        <option value="googleDrive">Google Drive</option>
+      </select>
+      
+      <label for="videoLink">Video Link:</label>
+      <input type="text" id="videoLink" name="videoLink">
+      
+      <label for="dataDownloadLink">Data Download Link:</label>
+      <input type="text" id="dataDownloadLink" name="dataDownloadLink" required>
+      
+      <label for="purpose">Purpose:</label>
+      <textarea id="purpose" name="purpose" required></textarea>
+      
+      <label for="researchPaperLink">Research Paper Link:</label>
+      <input type="text" id="researchPaperLink" name="researchPaperLink" required>
+      
+      <label for="resolution">Resolution:</label>
+      <input type="text" id="resolution" name="resolution" required>
+      
+      <label for="dates">Dates:</label>
+      <input type="text" id="dates" name="dates" required>
+      
+      <label for="size">Size:</label>
+      <input type="text" id="size" name="size" required>
+      
+      <label for="hardware">Hardware:</label>
+      <input type="text" id="hardware" name="hardware" required>
+      
+      <button type="button" onclick="addProject()">Add Project</button>
+      <button type="button" onclick="showProjects()">Back to Projects</button>
+    </form>
+  </div>
+
+  <script>
+    let projects = [];
+
+    const projectsContainer = document.getElementById('projects');
+    const formPage = document.getElementById('formPage');
+
+    async function fetchProjects() {
+      const projectFiles = ['ATM_Messages.json','project1.json', 'project2.json', 'YellowArrow1.json', 'YellowArrow2.json']; // List all your project JSON files here
+      for (const file of projectFiles) {
+        const response = await fetch(`projects/${file}`);
+        const project = await response.json();
+        projects.push(project);
+      }
+      renderProjects();
+    }
+
+    function toggleDetails(index) {
+      const details = document.getElementById(`details-${index}`);
+      details.style.display = details.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function renderProjects() {
+      projectsContainer.innerHTML = '';
+      projects.forEach((project, index) => {
+        const projectDiv = document.createElement('div');
+        projectDiv.className = 'project-item';
+        projectDiv.innerHTML = `
+          <img src="${project.image}" alt="${project.name}">
+          <div class="info">
+            <p class="title">${project.name}</p>
+            <p>by ${project.author}</p>
+          </div>
+          <div class="actions">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path>
+            </svg>
+          </div>
+        `;
+        projectDiv.onclick = () => toggleDetails(index);
+
+        const detailsDiv = document.createElement('div');
+        detailsDiv.id = `details-${index}`;
+        detailsDiv.className = 'details';
+        detailsDiv.innerHTML = `
+          <p><strong>Location:</strong> ${project.location}</p>
+          ${project.videoLink ? `
+            <div class="video-container">
+              ${project.videoType === 'youtube' ? 
+                `<iframe width="560" height="315" src="${project.videoLink}" frameborder="0" allowfullscreen></iframe>` : 
+                project.videoType === 'googleDrive' ?
+                  `<iframe src="${project.videoLink}"></iframe>` :
+                  ''
+              }
+            </div>` : ''}
+          <p><strong>Data Download:</strong> <a href="${project.dataDownloadLink}" target="_blank">Download </a></p>
+          <p><strong>Purpose:</strong> ${project.purpose}</p>
+          <p><strong>Research Paper:</strong> <a href="${project.researchPaperLink}" target="_blank">Link</a></p>
+          <p><strong>Metadata:</strong></p>
+          <ul class="metadata">
+            <li>Resolution: ${project.metadata.resolution}</li>
+            <li>Dates: ${project.metadata.dates}</li>
+            <li>Size: ${project.metadata.size}</li>
+            <li>Hardware: ${project.metadata.hardware}</li>
+          </ul>
+        `;
+        projectsContainer.appendChild(projectDiv);
+        projectsContainer.appendChild(detailsDiv);
+      });
+    }
+
+    function addProject() {
+      const form = document.getElementById('projectForm');
+      const newProject = {
+        name: form.name.value,
+        location: form.location.value,
+        videoExcerpt: form.videoExcerpt.value,
+        videoType: form.videoType.value,
+        videoLink: form.videoLink.value,
+        dataDownloadLink: form.dataDownloadLink.value,
+        purpose: form.purpose.value,
+        researchPaperLink: form.researchPaperLink.value,
+        metadata: {
+          resolution: form.resolution.value,
+          dates: form.dates.value,
+          size: form.size.value,
+          hardware: form.hardware.value
+        }
+      };
+      projects.push(newProject);
+      form.reset();
+      showProjects();
+    }
+
+    function showForm() {
+      formPage.style.display = 'block';
+      projectsContainer.style.display = 'none';
+    }
+
+    function showProjects() {
+      formPage.style.display = 'none';
+      projectsContainer.style.display = 'block';
+      renderProjects();
+    }
+
+    fetchProjects();
+
+
+    function searchProjects() {
+            const searchInput = document.getElementById('searchbar').value.toLowerCase();
+            const filteredProjects = projects.filter(project => 
+                project.name.toLowerCase().includes(searchInput)
+            );
+            renderProjects(filteredProjects);
+        }
+
+       
+  </script>
+</body>
+</html>

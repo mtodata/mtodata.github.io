@@ -1,0 +1,235 @@
+
+<html>
+ 
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Minnesota Traffic Observatory</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" />
+      <link rel ="stylesheet" href="styles.css"/>
+    </head> 
+  <body class="group/design-root">
+    <div class="layout-container">
+      <header>
+        <div>
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+          <h2 style="color:blanchedalmond;">Minnesota Traffic Observatory Test</h2>
+        </div>
+        <div class="header-links">
+          <a href="#">Dashboard</a>
+          <a href="#">Projects</a>
+          <a href="download_guide.html">Downloads</a>
+          <a href="#">Models</a>
+          <a href="#">Notebooks</a>
+          <a href="#">Jobs</a>
+        </div>
+          <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e6edf4] text-[#0c141d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0c141d]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e6edf4] text-[#0c141d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0c141d]" data-icon="Bell" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e6edf4] text-[#0c141d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0c141d]" data-icon="Question" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f28401c2-92af-4ed4-816a-0f0cd77c4b88.png");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#0c141d] text-4xl font-black leading-tight tracking-[-0.033em]">Download Guide</p>
+                <p class="text-[#4571a1] text-base font-normal leading-normal">Archived Videos are available on an S3 bucket that can be accessed via Globus. You will need a Globus account. You will be prompted to make a Globus account upon clicking a download link</p>
+                <a href="https://app.globus.org/file-manager?origin_id=5b8172bb-7ae0-4e3f-b68e-91fc7550c114&origin_path=%2F" target="_blank">
+                  <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#003670] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]">
+                    <span class="truncate">Example download link</span>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 1</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">Click the download link from the project dropdown. Or you can use the example link at the top of this page</p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Step1.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              
+            </div>
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 2: Open Globus</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              The files to be downloaded will be shown on the left. Make sure that these files/folders are the correct type of file. Additionally, ensure that your computer has enough storage to download the desired files/folders.
+            </p>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Click the search bar to find your computer's local collection
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Screenshot\ \(3\).png");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 3: Find your local machine and select it as the target collection</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              In the list of collections, select your local machine. If you have not created any globus collections, it should be your only collection
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Screenshot\ \(4\).png");'
+                ></div>
+              </div>
+            </div>
+            
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 4: Select a directory on your machine</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Choose where you want to save the files that you are downloading from Globus.
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Screenshot\ \(5\).png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 5: Select the files that you want to transfer</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Click the checkbox to the right of each file/folder you want to download 
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Screenshot\ \(7\).png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 6: Start the transfer</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Click the large blue start button. Downloading folders this large will likely take a long time 
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/start.png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 7: After waiting a little bit, ensure that the download is proceeding correctly</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              First select the Activity Tab on the right side, then check the transfer with the blue "in progress" icon as shown in the picture. If there is a yellow "warning" indicator, then the transfer is currently experiencing an error. If it is a red X, it has failed. If it is a green check mark, it has completed correctly
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/Activity.png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 8: Open the details for the specific transfer</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Click the name of the transfer that you just started
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/transfer.png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 9: Find the Event Log page</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Click event log on the details page for the transfer in question
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/EventLog.png");'
+                ></div>
+              </div>
+            </div>
+
+            <h3 class="text-[#0c141d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Step 10: Analyze the event logs</h3>
+            <p class="text-[#0c141d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              In the "progress" event, you will be able to see the number of bytes transferred during a specific range of time 
+              In the "succeeded" event, you will be able to see the number of files transferred during a specific range of time 
+              "file not found" and "permission denied" are the most common failure messages. Double check that you used the right link and are signed in to a Globus account
+            </p> 
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("DownloadGuideImages/stats.png");'
+                ></div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="flex px-4 py-3 justify-start">
+              <a href="https://app.globus.org/file-manager?origin_id=5b8172bb-7ae0-4e3f-b68e-91fc7550c114&origin_path=%2F" target="_blank">  
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#003670] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Try it Yourself with an Example file!</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

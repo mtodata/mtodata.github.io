@@ -1,0 +1,20 @@
+{
+    "filingName": "Yellow Arrow",
+    "location": "Robert Street and Mendota Rd (Facing South), Inver Grove Heights, MN",
+    "videoExcerpt": "Sample video excerpt",
+    "videoType": "youtube",
+    "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "dataDownloadLink": "https://example.com/data1",
+    "purpose": "To study traffic patterns",
+    "projectName": "Development of Guidelines for Permitted Left-Turn Phasing Using Flashing Yellow Arrows",
+    "researchPaperLink": "https://www.cts.umn.edu/publications/report/development-of-guidelines-for-permitted-left-turn-phasing-using-flashing-yellow-arrows",
+    "authors": "Gary Davis, John Hourdos, Vahid Moshtagh",
+    "image": "project1.jpg",
+    "gps": "44.883626, -93.080702",
+    "metadata": {
+        "resolution": "640x480",
+        "fps": "15",
+        "dates": "September 2012",
+        "size": "29.8 GB"
+    }
+}
