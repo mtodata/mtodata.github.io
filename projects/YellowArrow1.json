@@ -5,9 +5,9 @@
     "purpose": "Analyzing the use of Flashing Yellow Arrows on stoplights as turn safety functions. This page contains Inver Grove information",
     "projectName": "Development of Guidelines for Permitted Left-Turn Phasing Using Flashing Yellow Arrows",
     "researchPaperLink": "https://www.cts.umn.edu/publications/report/development-of-guidelines-for-permitted-left-turn-phasing-using-flashing-yellow-arrows",
-    "authors": "Gary Davis, John Hourdos, Vahid Moshtagh",
     "image": "InverGrove-YellowArrow.png",
     "gps": "44.883626, -93.080702",
+    "author": "Gary Davis, John Hourdos, Vahid Moshtagh",
     "metadata": {
         "resolution": "640x480",
         "fps": "15",
