@@ -125,7 +125,7 @@
     const formPage = document.getElementById('formPage');
 
     async function fetchProjects() {
-      const projectFiles = ['ATM_Messages.json','project1.json', 'project2.json', 'YellowArrow1.json', 'YellowArrow2.json']; // List all your project JSON files here
+      const projectFiles = ['ATM_Messages.json','A-line_Bus_Rapid_Transit.json', 'I-94_ATM_System_Safety.json', 'YellowArrow1.json', 'YellowArrow2.json', 'Signing_and_Lane_Markings_for_Two_Lane_Roundabouts.json', 'Stop_Lines_Safety.json', 'Traffic_Impacts_of_Bicycle_Facilities.json', 'Two_Lane_Roundabout.json', 'Uncontrolled_Pedestrian_Crossing_Evaluation_Incorporating_Highway_Capacity_Manual_Unsignalized_Pedestrian_Crossing_Analysis_Methodology.json']; // List all your project JSON files here
       for (const file of projectFiles) {
         const response = await fetch(`projects/${file}`);
         const project = await response.json();
