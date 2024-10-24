@@ -1,0 +1,18 @@
+
+{
+    "name": "Investigation of the Impact of the I-94 ATM System on the Safety of the I-94 Commons High Crash Area",
+    "location": "44°57'57.2\"N 93°16'10.6\"W",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=a4b70767-cd67-4952-8c82-ebd981aa52a6&origin_path=%2F",
+    "purpose": "This report investigates the impact of the Variable Speed Limit (VSL) system on safety in a high-crash area on I-94 westbound through downtown Minneapolis. Using video data, traffic measurements, and machine vision sensors, the study applied a before-and-after analysis to assess crash rates and shockwave activity, aiming to enhance safety by reducing speed variations between upstream and downstream traffic.",
+    "researchPaperLink": "https://www.cts.umn.edu/publications/report/investigation-of-the-impact-of-the-i-94-atm-system-on-the-safety-of-the-i-94-commons-high-crash-area",
+    "author": "John Hourdos, Stephen Zitzow",
+    "image": "ProjectImages/I-94_ATM.png",
+    "image_description": "Points of interest (High crash areas) across I-94. This includes: Groveland Ave, Park Ave, Cedar Ave, Riverside Ave, 11th Ave, 1st Ave, Lowry Hill Tunnel Entry",
+    "metadata": {
+        "resolution": "480p",
+        "dates": "2012-2014",
+        "size": "1725 GB",
+        "framerate": "10",
+        "hardware": "Beholder and Galileo System"
+    }
+}

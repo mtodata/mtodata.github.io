@@ -1,0 +1,17 @@
+{
+    "name": "Evaluation of the Effectiveness of Stop Lines in Increasing the Safety of Stop-Controlled Intersections",
+    "location": "Iona Ln & Dale St N",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=183cac8b-b2f2-49e6-86c4-8df00fb60212&origin_path=%2F",
+    "purpose": "This project examined the long-term impact of stop lines on intersection safety and driver behavior through crash data analysis and video observation at 16 intersections. The study found that stop lines did not significantly influence safety or behavior, with factors like speed limits and sight distance being more critical for improving intersection safety and compliance.",
+    "researchPaperLink": "https://www.cts.umn.edu/publications/report/evaluation-of-the-effectiveness-of-stop-lines-in-increasing-the-safety-of-stop-controlled-intersections",
+    "author": "Melissa Duhn, Peter Dirks, Andrew Loutfi, John Hourdos, Gary Davis",
+    "image": "ProjectImages/Stop_Line.png",
+    "image_description": "Shows the painting of a white stop line at an intersection to test differences in driving behavior at the same intersection",
+    "metadata": {
+        "resolution": "1080p",
+        "dates": "October 2011 - October 2012",
+        "size": "6266 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    }
+}

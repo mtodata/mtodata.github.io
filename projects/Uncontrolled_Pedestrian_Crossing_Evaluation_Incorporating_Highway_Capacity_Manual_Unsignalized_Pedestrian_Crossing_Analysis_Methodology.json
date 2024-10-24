@@ -1,0 +1,17 @@
+{
+    "name": "Uncontrolled Pedestrian Crossing Evaluation Incorporating Highway Capacity Manual Unsignalized Pedestrian Crossing Analysis Methodology",
+    "location": "Rice St and Fuller Ave",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=36b57853-5206-41 23-a518-3f57a7c44e1c&origin_path=%2F",
+    "purpose": "This report outlines a multi-step procedure for evaluating uncontrolled pedestrian crossings, focusing on both safety and delay, incorporating the Highway Capacity Manual's delay methodology. The evaluation considers various factors such as field data, safety history, sight distance, and treatment options, ranging from signage and marking to high-level treatments.",
+    "researchPaperLink": "https://www.cts.umn.edu/publications/report/uncontrolled-pedestrian-crossing-evaluation-incorporating-highway-capacity-manual-unsignalized-pedestrian-crossing-analysis-methodology",
+    "author": "Bryan Nemeth, Ross Tillman, Jeremy Melquist, Ashley Hudson",
+    "image": "ProjectImages/Highway_Pedestrian.png",
+    "image_description": "Diagram showing Stop bar and Pedestrian crossing signs on both a one-way and two-way roadway",
+    "metadata": {
+        "resolution": "480p",
+        "dates": "July - September 2013",
+        "size": "1990 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    }
+}

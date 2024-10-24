@@ -5,7 +5,7 @@
     "purpose": "Investigated active traffic management on I-94 webstbound. Checked lane change rates under different management strategies. Concluded that intelligent lane control signs helped optimize driver lane selection",
     "researchPaperLink": "https://www.cts.umn.edu/publications/report/evaluation-of-the-effectiveness-of-atm-messages-used-during-incidents",
     "author": "John Hourdos, Stephen Zitzow",
-    "image": "ATM-ILCS.png",
+    "image": "ProjectImages/ATM-ILCS.png",
     "image_description": "Digital Sign informing I-94 drivers that a future lane is closed",
     "metadata": {
         "resolution": "480p",
