@@ -13,5 +13,8 @@
         "size": "2770 GB",
         "framerate": "15",
         "hardware": "Traffic cameras"
-    }
+    },
+    "testing": "placeholder" 
+
+    
 }
