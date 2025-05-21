@@ -101,6 +101,7 @@
               <h3>Links:</h3>
               <strong>Full Paper Download</strong><a href="{{ researchPaperLink }}" target="_blank">Research Paper</a>
               <strong>Raw Data S3 bucket</strong><a href="{{ dataDownloadLink }}" target="_blank">Download Data via Globus</a>
+              <strong>Total Raw Data Size:</strong> {{ metadata.size }}
             </div>
 
           <div class="project-cameras">
@@ -111,7 +112,7 @@
                 <p><strong>Resolution:</strong> {{ camera.resolution }}</p>
                 <p><strong>Framerate:</strong> {{ camera.framerate }}</p>
                 <p><strong>Location:</strong> {{ camera.location }}</p>
-                <p><strong>Total Raw Data Size:</strong> {{ camera.size }}</p>
+                
                 <p><br></p>
               </div>
             {% endfor %}
