@@ -1,0 +1,55 @@
+{
+    "fields status": {
+        "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
+        "name": "Y",
+        "location": "N",
+        "dataDownloadLink": "N",
+        "purpose": "N",
+        "researchPaperLink": "Y",
+        "author": "Y",
+        "image": "N",
+        "image_description": "N",
+        "metadata": {
+            "resolution": "N",
+            "dates": "Y",
+            "size": "N",
+            "framerate": "N",
+            "hardware": "N"
+        },
+        "cameras": "N"
+    },
+
+    "name": "Uncontrolled Pedestrian Crossing Evaluation Incorporating Highway Capacity Manual Unsignalized Pedestrian Crossing Analysis Methodology",
+    "location": "Snelling and Dayton Station",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
+    "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2014-21.pdf",
+    "author": "Bryan Nemeth, Ross Tillman, Jeremy Melquist, Ashley Hudson",
+    "image": "ProjectImages/A_Line.png",
+    "image_description": "Image of the A Line bus overlayed over a Blue line Train Station",
+    "metadata": {
+        "resolution": "1080p",
+        "dates": "June 2014",
+        "size": "2770 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    },
+
+   "cameras": [
+    {
+        "name": "exampleCamera1",
+        "resolution": "exampleResolution1",
+        "framerate": "exampleFramerate1",
+        "size": "exampleSize1",
+        "location": "exampleLocation1"
+    },
+    {
+        "name": "exampleCamera2",
+        "resolution": "exampleResolution2",
+        "framerate": "exampleFramerate2",
+        "size": "exampleSize2",
+        "location": "exampleLocation1"
+    }
+    ]
+    
+}

@@ -1,0 +1,55 @@
+{
+    "fields status": {
+        "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
+        "name": "Y",
+        "location": "N",
+        "dataDownloadLink": "N",
+        "purpose": "Y",
+        "researchPaperLink": "Y",
+        "author": "Y",
+        "image": "N",
+        "image_description": "N",
+        "metadata": {
+            "resolution": "N",
+            "dates": "Y",
+            "size": "N",
+            "framerate": "N",
+            "hardware": "N"
+        },
+        "cameras": "N"
+    },
+
+    "name": "Evaluation of the Effect of MnPASS Lane Design on Mobility and Safety",
+    "location": "Snelling and Dayton Station",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "purpose": "Comparison and Evaluation of High Occupancy Toll lanes between I-394 and I-35W",
+    "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2014-23.pdf",
+    "author": "Panagiotis Stanitsas, John Hourdos, Stephen Zitzow",
+    "image": "ProjectImages/A_Line.png",
+    "image_description": "Image of the A Line bus overlayed over a Blue line Train Station",
+    "metadata": {
+        "resolution": "1080p",
+        "dates": "May 2011 - June 2014",
+        "size": "2770 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    },
+
+   "cameras": [
+    {
+        "name": "exampleCamera1",
+        "resolution": "exampleResolution1",
+        "framerate": "exampleFramerate1",
+        "size": "exampleSize1",
+        "location": "exampleLocation1"
+    },
+    {
+        "name": "exampleCamera2",
+        "resolution": "exampleResolution2",
+        "framerate": "exampleFramerate2",
+        "size": "exampleSize2",
+        "location": "exampleLocation1"
+    }
+    ]
+    
+}

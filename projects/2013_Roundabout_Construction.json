@@ -1,0 +1,55 @@
+{
+    "fields status": {
+        "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
+        "name": "N",
+        "location": "N",
+        "dataDownloadLink": "N",
+        "purpose": "N",
+        "researchPaperLink": "N",
+        "author": "N",
+        "image": "N",
+        "image_description": "N",
+        "metadata": {
+            "resolution": "1080p",
+            "dates": "January 2022",
+            "size": "Y",
+            "framerate": "N",
+            "hardware": "N"
+        },
+        "cameras": "N"
+    },
+
+    "name": "Placeholder",
+    "location": "Snelling and Dayton Station",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "purpose": "Analyzed the A Line bus in the Twin Cities Region comparing its effects on traffic during the State Fair and during normal traffic conditions. Surveyed for specific commuter complaints",
+    "researchPaperLink": "https://www.cts.umn.edu/publications/report/after-study-of-the-bus-rapid-transit-a-line-impacts",
+    "author": "Alireza Khani",
+    "image": "ProjectImages/A_Line.png",
+    "image_description": "Image of the A Line bus overlayed over a Blue line Train Station",
+    "metadata": {
+        "resolution": "1080p",
+        "dates": "January 2022",
+        "size": "2770 GB",
+        "framerate": "15",
+        "hardware": "Traffic cameras"
+    },
+
+   "cameras": [
+    {
+        "name": "exampleCamera1",
+        "resolution": "exampleResolution1",
+        "framerate": "exampleFramerate1",
+        "size": "exampleSize1",
+        "location": "exampleLocation1"
+    },
+    {
+        "name": "exampleCamera2",
+        "resolution": "exampleResolution2",
+        "framerate": "exampleFramerate2",
+        "size": "exampleSize2",
+        "location": "exampleLocation1"
+    }
+    ]
+    
+}
