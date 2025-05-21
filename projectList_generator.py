@@ -26,4 +26,4 @@ rendered_html = template.render(projects=projects)
 with open('projectList.html', 'w') as output_file:
     output_file.write(rendered_html)
 
-print("Generated output_index.html successfully.")
+print("Generated projectList.html successfully.")
