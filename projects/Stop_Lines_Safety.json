@@ -13,5 +13,22 @@
         "size": "6266 GB",
         "framerate": "15",
         "hardware": "Traffic cameras"
-    }
+    },
+
+    "cameras": [
+        {
+            "name": "exampleCamera1",
+            "resolution": "exampleResolution1",
+            "framerate": "exampleFramerate1",
+            "size": "exampleSize1",
+            "location": "exampleLocation1"
+        },
+        {
+            "name": "exampleCamera2",
+            "resolution": "exampleResolution2",
+            "framerate": "exampleFramerate2",
+            "size": "exampleSize2",
+            "location": "exampleLocation1"
+        }
+    ]
 }

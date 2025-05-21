@@ -104,12 +104,18 @@
               <strong>Raw Data S3 bucket</strong><a href="{{ dataDownloadLink }}" target="_blank">Download Data via Globus</a>
             </div>
 
-            <div class="project-metadata">
-              <h3>Video Data Information:</h3>
-              <p><strong>Resolution:</strong> {{ metadata.resolution }}</p>
-              <p><strong>Framerate:</strong> {{ metadata.framerate }}</p>
-              <p><strong>Total Raw Data Size:</strong> {{ metadata.size }}</p>
-            </div>
+          <div class="project-cameras">
+            <h3>Camera Information:</h3>
+            {% for camera in cameras %}
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> {{ camera.name }}</span></p>
+                <p><strong>Resolution:</strong> {{ camera.resolution }}</p>
+                <p><strong>Framerate:</strong> {{ camera.framerate }}</p>
+                <p><strong>Location:</strong> {{ camera.location }}</p>
+                <p><strong>Total Raw Data Size:</strong> {{ camera.size }}</p>
+                <p><br></p>
+              </div>
+            {% endfor %}
           </div>
 
           <div class="project-map">
