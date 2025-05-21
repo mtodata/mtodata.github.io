@@ -173,13 +173,12 @@
           <p><strong>Project Page:</strong> <a href="ProjectPages/${project.name.toLowerCase().replace(/\s+/g, '_')}.html" target="_blank">${project.name} </a></p>
           <p><strong>Data Download:</strong> <a href="${project.dataDownloadLink}" target="_blank">Download </a></p>
           <p><strong>Purpose:</strong> ${project.purpose}</p>
+          <p><strong>Dates: ${project.metadata.dates}</p>
           <p><strong>Research Paper:</strong> <a href="${project.researchPaperLink}" target="_blank">Link</a></p>
-          <p><strong>Metadata:</strong></p>
-          <ul class="metadata">
-            <li>Resolution: ${project.metadata.resolution}</li>
-            <li>Dates: ${project.metadata.dates}</li>
+          <p><strong>Camera Info:</strong></p>
+          <ul class="cameras">
+            <li>Number of Cameras: ${project.cameras.length}</li>
             <li>Size: ${project.metadata.size}</li>
-            <li>Hardware: ${project.metadata.hardware}</li>
           </ul>
         `;
         projectsContainer.appendChild(projectDiv);
