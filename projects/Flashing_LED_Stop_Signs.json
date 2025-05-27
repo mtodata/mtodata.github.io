@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "Y",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "Y",
         "author": "Y",
@@ -19,9 +19,9 @@
         "cameras": "N"
     },
 
-    "name": "Uncontrolled Pedestrian Crossing Evaluation Incorporating Highway Capacity Manual Unsignalized Pedestrian Crossing Analysis Methodology",
+    "name": "Flashing LED Stop Signs",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=d30c89ac-3ddd-44c2-a974-c202529876d4&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2014-21.pdf",
     "author": "Bryan Nemeth, Ross Tillman, Jeremy Melquist, Ashley Hudson",

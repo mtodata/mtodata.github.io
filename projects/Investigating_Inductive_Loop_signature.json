@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "Y",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "Y",
         "author": "Y",
@@ -21,7 +21,7 @@
 
     "name": "Investigating inductive loop signature technology for statewide vehicle classification counts",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=413b7213-60dc-4e52-9fc6-7822a174d9ba&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2018-31.pdf",
     "author": "Chen-Fu Liao",

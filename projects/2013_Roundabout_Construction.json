@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "N",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "N",
         "author": "N",
@@ -21,7 +21,7 @@
 
     "name": "Placeholder",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=f8973d6b-7326-4490-add0-2193f7f45faa&origin_path=%2F",
     "purpose": "Analyzed the A Line bus in the Twin Cities Region comparing its effects on traffic during the State Fair and during normal traffic conditions. Surveyed for specific commuter complaints",
     "researchPaperLink": "https://www.cts.umn.edu/publications/report/after-study-of-the-bus-rapid-transit-a-line-impacts",
     "author": "Alireza Khani",

@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "Y",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "Y",
         "researchPaperLink": "Y",
         "author": "Y",
@@ -21,7 +21,7 @@
 
     "name": "Evaluation of the Effect of MnPASS Lane Design on Mobility and Safety",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=f343c224-3d81-4e35-a01a-c33718070b2a&origin_path=%2F",
     "purpose": "Comparison and Evaluation of High Occupancy Toll lanes between I-394 and I-35W",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2014-23.pdf",
     "author": "Panagiotis Stanitsas, John Hourdos, Stephen Zitzow",

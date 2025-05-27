@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "Y?",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "N",
         "author": "N",
@@ -21,7 +21,7 @@
 
     "name": "Evaluation and Refinement of Minnesota Queue Warning Systems",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=7a18ff90-40d8-44e1-8514-7e3be5d4bda9&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2017-02.pdf",
     "author": "Greg Lindsey, Michael Petesch, Tohr Vorvick, Lisa Austin, Bruce Holdhusen",

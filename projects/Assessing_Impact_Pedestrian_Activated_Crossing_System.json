@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "Y",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "Y",
         "author": "Y",
@@ -21,7 +21,7 @@
 
     "name": "Assessing the Impact of Pedestrian-Activated Crossing Systems",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=510d95c5-45b7-4851-90f4-a0e7da3e73a2&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2020-13.pdf",
     "author": "John Hourdos, Peter Dirks, Derek Lehrke, Gordon Parikh, Gary Davis, Christopher Cheong",

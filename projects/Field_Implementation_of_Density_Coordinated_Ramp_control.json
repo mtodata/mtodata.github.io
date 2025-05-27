@@ -3,7 +3,7 @@
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
         "name": "N",
         "location": "N",
-        "dataDownloadLink": "N",
+        "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "N",
         "author": "N",
@@ -19,9 +19,9 @@
         "cameras": "N"
     },
 
-    "name": "Institutionalizing Bicycle and Pedestrian Traffic Counts and Data Collection",
+    "name": "Density Coordinated Ramp Control: Field Implementation",
     "location": "Snelling and Dayton Station",
-    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=feb7c2b2-6bb0-4f2b-adbe-828b9c9080c4&origin_path=%2FLakeville%2F",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=2d814416-c230-4b85-b37f-cd4b54d378e3&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
     "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2017-02.pdf",
     "author": "Greg Lindsey, Michael Petesch, Tohr Vorvick, Lisa Austin, Bruce Holdhusen",
