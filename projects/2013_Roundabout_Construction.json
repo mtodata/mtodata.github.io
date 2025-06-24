@@ -37,18 +37,18 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "Pleasant St and Pillsbury Dr (Temporary Roundabout, 3 Angles)",
+        "resolution": "640x480",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.977772, -93.236118"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
+        "name": "Pleasant St and Pillsbury Dr (Before Roundabout)",
+        "resolution": "640x480",
+        "framerate": "15",
         "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "44.977772, -93.236118"
     }
     ]
     
