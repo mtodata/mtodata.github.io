@@ -17,19 +17,40 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "Snelling Ave and Dayton Ave, St Paul (Northbound)",
+        "resolution": "1280x960",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.947425, -93.166977"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
+        "name": "Snelling Ave and Dayton Ave, St Paul (Southbound)",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "44.947425, -93.166977"
     }
+    {
+        "name": "Snelling Ave and Lincoln Ave, St Paul (Northbound)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.939148, -93.166948"
+    },
+    {
+        "name": "Snelling Ave and University Ave, St Paul (Northbound)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.955839, -93.166872"
+    },
+    {
+        "name": "Snelling Ave and University Ave, St Paul (Southbound)",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.955839, -93.166872"
+    },
     ]
     
 }
