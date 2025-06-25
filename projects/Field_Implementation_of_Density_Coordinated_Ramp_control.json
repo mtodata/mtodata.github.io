@@ -1,17 +1,17 @@
 {
     "fields status": {
         "Yes/No": "Each field below has a Y or an N to indicate whether that field has correct information",
-        "name": "N",
+        "name": "Y",
         "location": "N",
         "dataDownloadLink": "Y",
         "purpose": "N",
         "researchPaperLink": "N",
-        "author": "N",
-        "image": "N",
-        "image_description": "N",
+        "author": "Y",
+        "image": "Y",
+        "image_description": "Y",
         "metadata": {
             "resolution": "N",
-            "dates": "N",
+            "dates": "Y",
             "size": "N",
             "framerate": "N",
             "hardware": "N"
@@ -20,16 +20,16 @@
     },
 
     "name": "Density Coordinated Ramp Control: Field Implementation",
-    "location": "Snelling and Dayton Station",
+    "location": "W 50th St Bridge luminary, Approximately, W 48th St sound wall (Backup), Morningside Rd sound wall (Backup), W 41st St pedestrian bridge or sound wall, Park Center Blvd luminary, W 36th St Bridge overpass, Cedar Lake Trail Bridge overpass, Approximately between TH-7 and Co Rd 5 (Minnetonka Blvd), Approximately at the TH-100 NB exit to Co Rd 5 (Minnetonka Blvd)",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=2d814416-c230-4b85-b37f-cd4b54d378e3&origin_path=%2F",
-    "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
-    "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2017-02.pdf",
-    "author": "Greg Lindsey, Michael Petesch, Tohr Vorvick, Lisa Austin, Bruce Holdhusen",
-    "image": "ProjectImages/A_Line.png",
-    "image_description": "Image of the A Line bus overlayed over a Blue line Train Station",
+    "purpose": "This project evaluated the UMD KAdaptive ramp metering algorithm on Twin Cities freeways, ultimately replacing the existing Stratified Zone algorithm system-wide, while plans to test the UMN Density algorithm were deferred due to technical and scheduling issues.",
+    "researchPaperLink": "https://www.cts.umn.edu/research/project/field-implementation-testing-and-refinement-of-density-based-coordinated-ramp-control-strategy",
+    "author": "John Hourdos, Nikolas Geroliminis, Stephen Zitzow, and Ypatia Stefania Limniati",
+    "image": "ProjectImages/Ramp_Meter.jpg",
+    "image_description": "Image of a ramp meter: a small traffic light (red) installed on a highway on-ramp",
     "metadata": {
         "resolution": "1080p",
-        "dates": "December 2014 - January 2017",
+        "dates": "May 2012 - June 2015",
         "size": "2770 GB",
         "framerate": "15",
         "hardware": "Traffic cameras"

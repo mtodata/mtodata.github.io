@@ -19,8 +19,8 @@
         "cameras": "N"
     },
 
-    "name": "Placeholder",
-    "location": "Snelling and Dayton Station",
+    "name": "Pillsbury Drive and Pleasant Street Roundabout Test",
+    "location": " 44°58'39.9\"N 93°14'09.8\"W ",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=f8973d6b-7326-4490-add0-2193f7f45faa&origin_path=%2F",
     "purpose": "Analyzed the A Line bus in the Twin Cities Region comparing its effects on traffic during the State Fair and during normal traffic conditions. Surveyed for specific commuter complaints",
     "researchPaperLink": "https://www.cts.umn.edu/publications/report/after-study-of-the-bus-rapid-transit-a-line-impacts",
