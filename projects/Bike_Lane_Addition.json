@@ -37,18 +37,67 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "15th Ave SE at 4th St SE (Facing East)",
+        "resolution": "640x480",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.979968, -93.234418"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
-        "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "name": "1st Ave S & E 26th St (Facing North)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.955535, -93.276580"
+    },
+    {
+        "name": "5th St NE at Broadway St NE (Facing North)",
+        "resolution": "720x480",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.998703, -93.260259"
+    },
+    {
+        "name": "7th St N approaching Lyndale I-94 from South (Facing North)",
+        "resolution": "576x384",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.986415, -93.286863"
+    },
+    {
+        "name": "Bryant Ave S north of W 33rd St (Facing North)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.943737, -93.290728"
+    },
+    {
+        "name": "E 14th St between Park Ave S and Chicago Ave S (Facing East)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.968932, -93.264272"
+    },
+    {
+        "name": "Fremont Ave N, south of N 22nd Ave (Facing South)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "45.000356, -93.295695"
+    },
+    {
+        "name": "LaSalle Ave south of W 15th St (Facing North)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.966828, -93.279370"
+    },
+    {
+        "name": "W 15th St at Hennepin-Lyndale Ave S (Facing North)",
+        "resolution": "576x384",
+        "framerate": "10",
+        "size": "exampleSize1",
+        "location": "44.968924, -93.287433"
     }
     ]
     
