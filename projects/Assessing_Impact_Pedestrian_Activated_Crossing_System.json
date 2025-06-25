@@ -37,19 +37,258 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "01a- Cliff Rd and TH13, Burnsville (Bravo)",
+        "resolution": "1280x960",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.790406, -93.242721"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
+        "name": "01a- Cliff Rd and TH13, Burnsville (Charlie)",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "01a- Cliff Rd and TH13, Burnsville (Echo)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "01a- Cliff Rd and TH13, Burnsville (India)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "01a- Co Rd 11 and TH13, Burnsville (Delta)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.787291, -93.247908"
+    },
+    {
+        "name": "01a- Co Rd 11 and TH13, Burnsville (Foxtrot)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.787291, -93.247908"
+    },
+    {
+        "name": "01b- Cliff Rd and TH13, Burnsville (Foxtrot)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "01b- Cliff Rd and TH13, Burnsville (Hotel)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "01b- Cliff Rd and TH13, Burnsville (India)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+       {
+        "name": "01b- Co Rd 11 and TH13, Burnsville (Bravo)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.787291, -93.247908"
+    },
+    {
+        "name": "01b- Co Rd 11 and TH13, Burnsville (Charlie)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.787291, -93.247908"
+    },
+    {
+        "name": "01b- Co Rd 11 and TH13, Burnsville (Echo)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.790406, -93.242721"
+    },
+    {
+        "name": "04- CSAH 29 and Lewiston Elementary School, Lewiston",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "43.981345, -91.869145"
+    },
+    {
+        "name": "06- Co Rd 11 and 140th St, Burnsville",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.750149, -93.258337"
+    },
+    {
+        "name": "07- TH13 and Budd Ave, Maple Plain",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.008139, -93.655807"
+    },
+    {
+        "name": "09- TH61 between Franklin St and Hill St, Red Wing",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.563435, -92.541106"
+    },
+    {
+        "name": "10- TH23 and 12th Ave S, St Cloud",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.556935, -94.164413"
+    },
+    {
+        "name": "11- TH169 S of Main St, Anoka",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.196329, -93.393967"
+    },
+    {
+        "name": "12- Snelling Ave and Lincoln Ave, St Paul",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.939027, -93.166958"
+    },
+    {
+        "name": "20- W River Rd and 109th Ave N, Champlin",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.151989, -93.337836"
+    },
+    {
+        "name": "23- TH101 and Pleasantview Rd, Chanhassen",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.887602, -93.520707"
+    },
+    {
+        "name": "24- TH41 and Chaska Rd, Excelsior",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.889218, -93.580893"
+    },
+    {
+        "name": "25- CSAH 15 and Kelly Ave, Wayzata",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.934644, -93.609467"
+    },
+    {
+        "name": "26- TH47 and Pederson Dr NW, St Francis",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.388044, -93.367838"
+    },
+    {
+        "name": "27- CSAH 25 and 295th St, Lindstrom",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "45.375967, -92.841826"
+    },
+    {
+        "name": "34- Co Rd 82 and South Grade Ct SW, Hutchinson",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "44.878127, -94.418897"
+    },
+    {
+        "name": "40- TH22 and 2nd St SW, Wells",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "43.743086, -93.728342"
+    },
+    {
+        "name": "45- TH75 and W Barck Ave, Luverne",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "43.663194, -96.212660"
+    },
+    {
+        "name": "46- TH75 and W Dodge St, Luverne",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "43.660080, -96.212717"
+    },
+    {
+        "name": "49a- Superior St, N of N 4th Ave E, Duluth (After)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "46.791135, -92.092760"
+    },
+    {
+        "name": "49b- Superior St, N of N 4th Ave E, Duluth (Before)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "46.791135, -92.092760"
+    },
+    {
+        "name": "51- E Main St Between 2nd Ave and 3rd Ave, Anoka",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "45.197964, -93.388148"
+    },
+    {
+        "name": "52- W Main St and Franklin Ln, Anoka",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "45.200683, -93.395113"
+    },
+    {
+        "name": "U2- CSAH 15 and Tanager Lake, Wayzata",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "44.961518, -93.558440"
+    },
+    {
+        "name": "U3- Hwy 3 and 3rd St, Northfield",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "44.457160, -93.162575"
+    },
+    {
+        "name": "U4- CSAH 32 and S Baker St, Winona",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize2",
+        "location": "44.048529, -91.661359"
     }
+       
     ]
     
 }
