@@ -23,7 +23,7 @@
     "location": "Snelling and Dayton Station",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=d30c89ac-3ddd-44c2-a974-c202529876d4&origin_path=%2F",
     "purpose": "Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate",
-    "researchPaperLink": "https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2014-21.pdf",
+    "researchPaperLink": "https://cts-d10resmod-prd.oit.umn.edu/pdf/mndot-2014-02.pdf",
     "author": "Bryan Nemeth, Ross Tillman, Jeremy Melquist, Ashley Hudson",
     "image": "ProjectImages/A_Line.png",
     "image_description": "Image of the A Line bus overlayed over a Blue line Train Station",
@@ -37,18 +37,11 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "Hwy 95 and Co Rd 9 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
-    },
-    {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
-        "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "45.513209, -92.845271"
     }
     ]
     
