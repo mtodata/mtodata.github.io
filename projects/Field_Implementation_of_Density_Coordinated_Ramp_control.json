@@ -37,18 +37,53 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "Hwy 100 and 36th St Bridge",
+        "resolution": "640x480",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.937797, -93.349021"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
-        "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "name": "Hwy 100 and 50th St Bridge",
+        "resolution": "640x480",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.912447, -93.350551"
+    },
+    {
+        "name": "Hwy 100 and Auto Club Way",
+        "resolution": "640x480",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.933077, -93.349460"
+    },
+    {
+        "name": "Hwy 100 and Cedar Lake Trail Bridge (Greenway)",
+        "resolution": "720x480",
+        "framerate": "7",
+        "size": "exampleSize1",
+        "location": "44.941283, -93.347924"
+    },
+    {
+        "name": "Hwy 100 and Minnetonka Blvd",
+        "resolution": "640x480",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.949531, -93.347558"
+    },
+    {
+        "name": "Hwy 100 and W 41st St Pedestrian Bridge",
+        "resolution": "640x480",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.926644, -93.349301"
+    },
+    {
+        "name": "Hwy 100, N of TH7",
+        "resolution": "720x480",
+        "framerate": "7",
+        "size": "exampleSize1",
+        "location": "44.948185, -93.347877"
     }
     ]
     
