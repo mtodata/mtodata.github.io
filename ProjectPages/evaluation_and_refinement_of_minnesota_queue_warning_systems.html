@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation and Refinement of Minnesota Queue Warning Systems - Project Template</title>
+    <link rel="icon" type="image/x-icon" href="../mndot.png">
+    <script src="https://unpkg.com/@globus/sdk/umd/globus.production.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" />
+    <link rel="stylesheet" href="../styles.css"/>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <style>
+        .project-container {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project-header h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+        .project-meta {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .project-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-details {
+            width: 60%;
+        }
+        .project-map {
+            width: 35%;
+        }
+        .project-map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .project-image {
+            margin-bottom: 20px;
+        }
+        .project-image img {
+            max-height: 300px;
+            max-width: 720px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+        }
+        .download-links {
+            margin-top: 20px;
+        }
+        .download-links a {
+            display: block;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  <div class="layout-container">
+    <header>
+      <div>
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+        <h2 style="color:blanchedalmond;">Evaluation and Refinement of Minnesota Queue Warning Systems</h2>
+      </div>
+      <div class="header-links">
+        <a href="../index.html">Home</a>
+        <a href="../projectList.html">Projects</a>
+        <a href="../download_guide.html">Download Guide</a>
+      </div>
+    </header>
+
+    <div class="layout-content-container">
+      <div class="project-container">
+        <div class="project-header">
+          <h1>Evaluation and Refinement of Minnesota Queue Warning Systems</h1>
+          <div class="project-meta">
+            <p>September 2018 - March 2023 | by John Hourdos, Jake Robbennolt</p>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-details">
+            <div class="project-purpose">
+              <h3>Purpose:</h3>
+              <p>This study evaluates the MN-QWARN queue warning algorithm at a new freeway location, revealing low detection and high false alarm rates—particularly a 25% detection rate on the right lane and 64% on the left—indicating the need for recalibration to improve performance. High over-warning rates were also observed on both lanes</p>
+            </div>
+
+            <div class="project-image">
+              <img src="../ProjectImages/Queue_Warning_System.png" alt="Graph showing the estimation of density and flow rate. Y axis is time, X axis is space. Arrival traffic enters from the top left with a steep negative slope, enters the Queue Shockwave line, from where the slope becomes zero until it reaches the discharge shockwave and departure traffic continues with a steep negative slope">
+            </div>
+
+            <div class="download-links">
+              <h3>Links:</h3>
+              <strong>Full Paper Download</strong><a href="https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2023-05.pdf" target="_blank">Research Paper</a>
+              <strong>Raw Data S3 bucket</strong><a href="https://app.globus.org/file-manager?origin_id=7a18ff90-40d8-44e1-8514-7e3be5d4bda9&origin_path=%2F" target="_blank">Download Data via Globus</a>
+              <strong>Total Raw Data Size:</strong> 2770 GB
+            </div>
+
+          <div class="project-cameras">
+            <h3>Camera Information:</h3>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, 46th St E 620 (Facing North)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.919953, -93.274603</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, 46th St M 619 (Facing North)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> exampleFramerate1</p>
+                <p><strong>Location:</strong> 44.919005, -93.274804</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, 50th St W 618 (Facing North)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.912685, -93.275127</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, 58th St M 6161 (Facing North)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.898021, -93.274982</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, Diamond Lake Rd W 617 (Facing South)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.903052, -93.274976</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-35W, E Junction TH62 616 (Facing North)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.892756, -93.274842</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 1st Ave 8331 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966869, -93.274987</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, E of Portland Ave N 8350 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966127, -93.265988</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Hennepin Lyndale 832 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.964701, -93.287072</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, I-494 E Jct N 861 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.948774, -92.960434</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Mounds Blvd S 855 (Facing North) (MISTAKE; TWO FOLDERS)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.952518, -93.070451</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Johnson Pkwy S 856 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.952179, -93.049189</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, McKnight Rd N 859 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.950209, -93.004311</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Park Ave 8351 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966033, -93.264584</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Portland Ave N 835 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966029, -93.268409</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, TH120 S 860 (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.948476, -92.983959</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, TH55 S 8353 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.965894, -93.253560</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, TH61 N (Facing East)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.952737, -93.038649</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, TH65 N 834 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966631, -93.271813</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, W of Portland Ave N 8340 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 10</p>
+                <p><strong>Location:</strong> 44.966028, -93.268360</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, White Bear Ave S 858 (Facing West)</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.951352, -93.026085</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 11th Ave S (Augustana East)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966001, -93.256516</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 11th Ave S (Augustana West)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966041, -93.259970</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 3rd Ave (3rd Merge)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966665, -93.274180</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 3rd Ave (3rd Middle)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966521, -93.271926</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, 3rd Ave (Autoscope Middle, Tracking)</span></p>
+                <p><strong>Resolution:</strong> 720x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966689, -93.272321</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Portland Ave (Autoscope Portland, Tracking)</span></p>
+                <p><strong>Resolution:</strong> 720x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.966050, -93.268491</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Portland Ave (Eastern) (3rd Corridor)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.965913, -93.266992</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> exampleCamera1</span></p>
+                <p><strong>Resolution:</strong> exampleResolution1</p>
+                <p><strong>Framerate:</strong> exampleFramerate1</p>
+                <p><strong>Location:</strong> exampleLocation1</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> I-94, Portland Ave (Western) (3rd Portland)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.965976, -93.267960</p>
+                
+                <p><br></p>
+              </div>
+            
+          </div>
+
+          <div class="project-map">
+            <h3>Location</h3>
+            <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Portland Ave and Hiawatha Ave" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function initMap() {
+      // The map will be displayed in the iframe based on the location provided in the template.
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessing the Impact of Pedestrian-Activated Crossing Systems - Project Template</title>
+    <link rel="icon" type="image/x-icon" href="../mndot.png">
+    <script src="https://unpkg.com/@globus/sdk/umd/globus.production.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" />
+    <link rel="stylesheet" href="../styles.css"/>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <style>
+        .project-container {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project-header h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+        .project-meta {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .project-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-details {
+            width: 60%;
+        }
+        .project-map {
+            width: 35%;
+        }
+        .project-map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .project-image {
+            margin-bottom: 20px;
+        }
+        .project-image img {
+            max-height: 300px;
+            max-width: 720px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+        }
+        .download-links {
+            margin-top: 20px;
+        }
+        .download-links a {
+            display: block;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  <div class="layout-container">
+    <header>
+      <div>
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+        <h2 style="color:blanchedalmond;">Assessing the Impact of Pedestrian-Activated Crossing Systems</h2>
+      </div>
+      <div class="header-links">
+        <a href="../index.html">Home</a>
+        <a href="../projectList.html">Projects</a>
+        <a href="../download_guide.html">Download Guide</a>
+      </div>
+    </header>
+
+    <div class="layout-content-container">
+      <div class="project-container">
+        <div class="project-header">
+          <h1>Assessing the Impact of Pedestrian-Activated Crossing Systems</h1>
+          <div class="project-meta">
+            <p>November 2015 - May 2020 | by John Hourdos, Peter Dirks, Derek Lehrke, Gordon Parikh, Gary Davis, Christopher Cheong</p>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-details">
+            <div class="project-purpose">
+              <h3>Purpose:</h3>
+              <p>Manual and methodology to count and analyze nonmotorized traffic. Intended to make future studies regarding nonmotorized traffic monitoring more accurate</p>
+            </div>
+
+            <div class="project-image">
+              <img src="../ProjectImages/A_Line.png" alt="Image of the A Line bus overlayed over a Blue line Train Station">
+            </div>
+
+            <div class="download-links">
+              <h3>Links:</h3>
+              <strong>Full Paper Download</strong><a href="https://cts-d8resmod-prd.oit.umn.edu/pdf/mndot-2020-13.pdf" target="_blank">Research Paper</a>
+              <strong>Raw Data S3 bucket</strong><a href="https://app.globus.org/file-manager?origin_id=510d95c5-45b7-4851-90f4-a0e7da3e73a2&origin_path=%2F" target="_blank">Download Data via Globus</a>
+              <strong>Total Raw Data Size:</strong> 2770 GB
+            </div>
+
+          <div class="project-cameras">
+            <h3>Camera Information:</h3>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Cliff Rd and TH13, Burnsville (Bravo)</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Cliff Rd and TH13, Burnsville (Charlie)</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Cliff Rd and TH13, Burnsville (Echo)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Cliff Rd and TH13, Burnsville (India)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Co Rd 11 and TH13, Burnsville (Delta)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.787291, -93.247908</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01a- Co Rd 11 and TH13, Burnsville (Foxtrot)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.787291, -93.247908</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Cliff Rd and TH13, Burnsville (Foxtrot)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Cliff Rd and TH13, Burnsville (Hotel)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Cliff Rd and TH13, Burnsville (India)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Co Rd 11 and TH13, Burnsville (Bravo)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.787291, -93.247908</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Co Rd 11 and TH13, Burnsville (Charlie)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.787291, -93.247908</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 01b- Co Rd 11 and TH13, Burnsville (Echo)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.790406, -93.242721</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 04- CSAH 29 and Lewiston Elementary School, Lewiston</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 43.981345, -91.869145</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 06- Co Rd 11 and 140th St, Burnsville</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.750149, -93.258337</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 07- TH13 and Budd Ave, Maple Plain</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.008139, -93.655807</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 09- TH61 between Franklin St and Hill St, Red Wing</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.563435, -92.541106</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 10- TH23 and 12th Ave S, St Cloud</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.556935, -94.164413</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 11- TH169 S of Main St, Anoka</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.196329, -93.393967</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 12- Snelling Ave and Lincoln Ave, St Paul</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.939027, -93.166958</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 20- W River Rd and 109th Ave N, Champlin</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.151989, -93.337836</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 23- TH101 and Pleasantview Rd, Chanhassen</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.887602, -93.520707</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 24- TH41 and Chaska Rd, Excelsior</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.889218, -93.580893</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 25- CSAH 15 and Kelly Ave, Wayzata</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.934644, -93.609467</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 26- TH47 and Pederson Dr NW, St Francis</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.388044, -93.367838</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 27- CSAH 25 and 295th St, Lindstrom</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.375967, -92.841826</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 34- Co Rd 82 and South Grade Ct SW, Hutchinson</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.878127, -94.418897</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 40- TH22 and 2nd St SW, Wells</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 43.743086, -93.728342</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 45- TH75 and W Barck Ave, Luverne</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 43.663194, -96.212660</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 46- TH75 and W Dodge St, Luverne</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 43.660080, -96.212717</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 49a- Superior St, N of N 4th Ave E, Duluth (After)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 46.791135, -92.092760</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 49b- Superior St, N of N 4th Ave E, Duluth (Before)</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 46.791135, -92.092760</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 51- E Main St Between 2nd Ave and 3rd Ave, Anoka</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.197964, -93.388148</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> 52- W Main St and Franklin Ln, Anoka</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 45.200683, -93.395113</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> U2- CSAH 15 and Tanager Lake, Wayzata</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.961518, -93.558440</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> U3- Hwy 3 and 3rd St, Northfield</span></p>
+                <p><strong>Resolution:</strong> 1280x960</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.457160, -93.162575</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> U4- CSAH 32 and S Baker St, Winona</span></p>
+                <p><strong>Resolution:</strong> 1920x1080</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.048529, -91.661359</p>
+                
+                <p><br></p>
+              </div>
+            
+          </div>
+
+          <div class="project-map">
+            <h3>Location</h3>
+            <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Snelling and Dayton Station" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function initMap() {
+      // The map will be displayed in the iframe based on the location provided in the template.
+    }
+  </script>
+</body>
+</html>
