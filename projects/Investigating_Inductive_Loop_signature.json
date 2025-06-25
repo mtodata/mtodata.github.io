@@ -37,18 +37,53 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "I-35E, S of McAndrews Rd, Burnsville",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "44.753340, -93.261788"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
+        "name": "I-94, Victoria St S, St. Paul",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.951679, -93.136771"
+    },
+    {
+        "name": "TH13 and Lynn Ave, Savage (Facing East)",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.779076, -93.336399"
+    },
+    {
+        "name": "TH13 and Lynn Ave, Savage (Facing South)",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.779076, -93.336399"
+    },
+    {
+        "name": "US169 and CR59 (Delaware Ave), Jordan",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.656884, -93.676151"
+    },
+    {
+        "name": "US169 and TH282 (Quaker Ave), Jordan (Facing East)",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "44.670621, -93.639512"
+    },
+    {
+        "name": "US169 and TH282 (Quaker Ave), Jordan (Facing West)",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "44.670621, -93.639512"
     }
     ]
     
