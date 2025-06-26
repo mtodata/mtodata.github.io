@@ -17,18 +17,114 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "S017O- Minneapolis, Walnut St SE and Beacon St SE, EB",
+            "resolution": "1280x960",
+            "framerate": "15",
             "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "location": "44.974752, -93.228735"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "S036O- Richfield, Lyndale Ave S and W 72nd St, WB",
+            "resolution": "1920x1080",
+            "framerate": "15",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "44.872693, -93.288420"
+        },
+        {
+            "name": "S040A- Richfield, Nicollet Ave and W 68th St, EB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.879888, -93.278154"
+        },
+        {
+            "name": "S040B- Richfield, Nicollet Ave and E 68th St, WB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.879888, -93.278154"
+        },
+        {
+            "name": "S051O- St. Paul, Como Ave and Knapp St, EB",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "location": "44.978711, -93.191380"
+        },
+        {
+            "name": "S087O- Roseville, Woodhill Dr and Civic Center Dr, NB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "45.022763, -93.149331"
+        },
+        {
+            "name": "S089A- Roseville, Dale St N and Iona Ln, WB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "45.024221, -93.126340"
+        },
+        {
+            "name": "S094A- Roseville, Lincoln Dr and Lydia Ave W, NB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "45.031516, -93.168616"
+        },
+        {
+            "name": "S179O- Edina, 50th St W and Eden Ave, NB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.911375, -93.345868"
+        },
+        {
+            "name": "S182O - Edina, Vernon Ave S and Arcadia Ave, NB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.912423, -93.352300"
+        },
+        {
+            "name": "S190A- Richfield, Portland Ave and E 73rd St, EB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.870913, -93.268067"
+        },
+        {
+            "name": "S190B- Richfield, Portland Ave and E 73rd St, WB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "44.870913, -93.268067"
+        },
+        {
+            "name": "S221O - St. Paul, Warner Rd and Fish Hatchery Rd N, NB",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "location": "44.945436, -93.047290"
+        },
+        {
+            "name": "S227O- St Paul, W Territorial Rd and Cromwell Ave, NB",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "location": "44.967211, -93.201445"
+        },
+        {
+            "name": "S280C- St. Louis Park, Raleigh Ave and W 28th St (Facing West)",
+            "resolution": "UNKNOWN; NOT RECORDED",
+            "framerate": "15",
+            "location": "44.952118, -93.344131"
+        },
+        {
+            "name": "S282O- Roseville, County Rd C W and Civic Center Dr, SB",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "location": "45.020480, -93.149484"
+        },
+        {
+            "name": "S283O- Roseville, County Rd B2 and Prior Ave",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "location": "45.021016, -93.182194"
+        },
+        {
+            "name": "S284C- St Louis Park, Quentin Ave and W 28th St",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "location": "44.952101, -93.342936"
         }
     ]
 }
