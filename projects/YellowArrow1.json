@@ -17,18 +17,18 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "Concord Street and Grand Ave (Facing North)",
+            "resolution": "640x480",
+            "framerate": "15",
             "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "location": "44.893142, -93.034320"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "Robert Street and Mendota Rd (Facing South)",
+            "resolution": "640x480",
+            "framerate": "15",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "44.883626, -93.080702"
         }
     ]
 }
