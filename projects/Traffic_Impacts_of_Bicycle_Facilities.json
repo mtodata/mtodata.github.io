@@ -17,18 +17,200 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "15th Avenue SE, Dinkytown, Minneapolis (Facing South)",
+            "resolution": "1280x960",
+            "framerate": "15",
             "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "location": "44.982175, -93.232592"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "15th Avenue SE, Dinkytown, Minneapolis (Facing North)",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.982175, -93.232592"
+        },
+        {
+            "name": "Como Ave SE and 16th Ave SE (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.987848, -93.228926"
+        },
+        {
+            "name": "Como Ave SE and 16th Ave SE (Facing West)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.987848, -93.228926"
+        },
+        {
+            "name": "Kenwood Ave near W Arrowhead Rd, Duluth (Facing South) ",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.820507, -92.100387"
+        },
+        {
+            "name": "Kenwood Ave/W College St, Duluth (Facing East)",
+            "resolution": "1280x960",
+            "framerate": "exampleFramerate1",
+            "size": "exampleSize1",
+            "location": "46.816613, -92.100428"
+        },
+        {
+            "name": "Kenwood Ave/W College St, Duluth (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.816613, -92.100428"
+        },
+        {
+            "name": "London Rd and S 18th Ave E (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.802521, -92.073044"
+        },
+        {
+            "name": "London Rd and S 21st Ave E (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.804623, -92.069068"
+        },
+        {
+            "name": "London Rd and S 21st Ave E (Facing West)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.804623, -92.069068"
+        },
+        {
+            "name": "Marshall Ave and Cretin Ave S, St Paul (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.948399, -93.192640"
+        },
+        {
+            "name": "Marshall Ave and Cretin Ave S, St Paul (Facing West)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.948399, -93.192640"
+        },
+        {
+            "name": "Marshall Ave and Mississippi River Blvd, St Paul (Facing West)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.948446, -93.199077"
+        },
+        {
+            "name": "Marshall Ave and Montrose Pl, St Paul (Facing West)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.948415, -93.196746"
+        },
+        {
+            "name": "Pleasant St SE and Arlington St, UMN (Facing North)",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.976029, -93.236792"
+        },
+        {
+            "name": "S Wayzata Blvd (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.969911, -93.314937"
+        },
+        {
+            "name": "Superior St and N 4th Ave E (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.791054, -92.092849"
+        },
+        {
+            "name": "Superior St by Fitgers (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.792255, -92.091458"
+        },
+        {
+            "name": "Superior St by Va Bene (Facing South)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.793946, -92.089118"
+        },
+        {
+            "name": "Veterans Memorial Bridge, Mankato (Camera 1)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.169633, -94.004161"
+        },
+        {
+            "name": "Veterans Memorial Bridge, Mankato (Camera 2)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.169633, -94.004161"
+        },
+        {
+            "name": "Veterans Memorial Bridge, Mankato (Camera 3)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.168220, -94.001285"
+        },
+        {
+            "name": "Veterans Memorial Bridge, Mankato (Camera 4)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.168220, -94.001285"
+        },
+        {
+            "name": "W College St near Kenwood Ave, Duluth (Facing West)",
+            "resolution": "1280x960",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "46.816256, -92.098015"
+        },
+        {
+            "name": "Washington Ave and N 10th Ave (Facing South)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.990599, -93.280737"
+        },
+        {
+            "name": "Washington Ave and N 5th Ave (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.985931, -93.274463"
+        },
+        {
+            "name": "Washington Ave and N 7th Ave (Facing South)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.987820, -93.277080"
+        },
+        {
+            "name": "Washington Ave and N 8th Ave (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "44.988814, -93.278412"
         }
     ]
 
