@@ -17,18 +17,46 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "Adams St, Hwy 22 Roundabout, Mankato (Facing West) (CHANNEL 1 IS NORMAL, CHANNEL 2 IS ZOOMED IN)",
+            "resolution": "1920x1080",
+            "framerate": "30",
             "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "location": "44.170396, -93.949039"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "Kenwood Trail, 185th St. W Roundabout, Lakeville (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.681385, -93.278005"
+        },
+        {
+            "name": "Kenwood Trail, 185th St. W Roundabout, Lakeville (Facing West, Close Shot)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.681385, -93.278005"
+        },
+        {
+            "name": "Kenwood Trail, 185th St. W Roundabout, Lakeville (Facing West, Wide Shot)",
+            "resolution": "1920x1080",
+            "framerate": "exampleFramerate1",
+            "size": "exampleSize1",
+            "location": "44.681385, -93.278005"
+        },
+        {
+            "name": "University Dr S/5th Ave S Roundabout, St. Cloud (Facing East)",
+            "resolution": "1920x1080",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "45.549471, -94.154610"
+        },
+        {
+            "name": "University Dr S/5th Ave S Roundabout, St. Cloud (Facing North)",
+            "resolution": "1920x1080",
+            "framerate": "15",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "45.549471, -94.154610"
         }
     ]
 }
