@@ -17,18 +17,53 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "Johnny Cake Ridge Rd and Clemson Dr; Eagan (Facing West)",
+            "resolution": "640x480",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.800041, -93.185613"
+        },
+        {
+            "name": "Lafayette Rd and E 8th St; St Paul (Facing North)",
+            "resolution": "640x480",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.954139, -93.083989"
+        },
+        {
+            "name": "Minneapolis (unknown location)",
+            "resolution": "640x480",
+            "framerate": "15",
             "size": "exampleSize1",
             "location": "exampleLocation1"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "Parklawn Ave and York Ave S; Edina (Facing North)",
+            "resolution": "640x480",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.868248, -93.321251"
+        },
+        {
+            "name": "Rice St and Fuller Ave; St. Paul (Facing North)",
+            "resolution": "640x480",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.953977, -93.105950"
+        },
+        {
+            "name": "Rolling Acres Rd and Lake Minnetonka LRT Regional Trail; Victoria (Facing South)",
+            "resolution": "640x480",
+            "framerate": "15",
+            "size": "exampleSize1",
+            "location": "44.872322, -93.639236"
+        },
+        {
+            "name": "Wayzata Blvd and Mill St; Long Lake (Facing South)",
+            "resolution": "640x480",
+            "framerate": "15",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "44.985331, -93.570133"
         }
     ]
 }
