@@ -37,18 +37,81 @@
 
    "cameras": [
     {
-        "name": "exampleCamera1",
-        "resolution": "exampleResolution1",
-        "framerate": "exampleFramerate1",
+        "name": "Big Lake Rd and Brevator Rd, Cloquet",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize1",
-        "location": "exampleLocation1"
+        "location": "46.714250, -92.512218"
     },
     {
-        "name": "exampleCamera2",
-        "resolution": "exampleResolution2",
-        "framerate": "exampleFramerate2",
+        "name": "Big Lake Rd and Pinewood Dr, Cloquet",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "46.714287, -92.481140"
+    },
+    {
+        "name": "Big Lake Rd and Trettel Ln, Cloquet",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "46.714392, -92.491203"
+    },
+    {
+        "name": "HWY169 and Casino Rd 1 (Crosswalk), Mille Lacs",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "46.179984, -93.756579"
+    },
+    {
+        "name": "HWY169 and Casino Rd 2 (North View), Mille Lacs",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "46.181820, -93.756535"
+    },
+    {
+        "name": "HWY169 and Casino Rd 3 (Hole in Fence), Mille Lacs",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "46.181820, -93.756535"
+    },
+    {
+        "name": "HWY413 (Gruben Rd) and Farm Rd, Bois Forte",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "47.824453, -92.320367"
+    },
+    {
+        "name": "HWY413 (Gruben Rd) and Gold Mine Spur Rd, Bois Forte",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "47.817688, -92.338850"
+    },
+    {
+        "name": "HWY61 and Marina Rd, Grand Portage",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "47.952993, -89.696103"
+    },
+    {
+        "name": "HWY61 and Stevens Rd, Grand Portage",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "size": "exampleSize1",
+        "location": "47.962244, -89.694213"
+    },
+    {
+        "name": "TH210 and Mision Rd, Sawyer",
+        "resolution": "1920x1080",
+        "framerate": "15",
         "size": "exampleSize2",
-        "location": "exampleLocation1"
+        "location": "46.671278, -92.634232"
     }
     ]
     
