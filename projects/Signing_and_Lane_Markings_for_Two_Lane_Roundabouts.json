@@ -17,18 +17,25 @@
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
+            "name": "360 Cam (Portland/66th St Roundabout)",
+            "resolution": "1920x1440",
+            "framerate": "15",
             "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "location": "44.883549, -93.267847"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
+            "name": "Portland Ave N/66th St Roundabout (Facing North) (MISTAKE; LOCATION EXISTS ALSO IN NESTED FOLDER)",
+            "resolution": "720x480",
+            "framerate": "7",
+            "size": "exampleSize1",
+            "location": "44.883549, -93.267847"
+        },
+        {
+            "name": "Portland Ave N/66th St Roundabout (Facing East) (MISTAKE; LOCATION EXISTS ALSO IN NESTED FOLDER)",
+            "resolution": "720x480",
+            "framerate": "7",
             "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "location": "44.883549, -93.267847"
         }
     ]
 }
