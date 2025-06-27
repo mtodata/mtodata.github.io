@@ -16,13 +16,7 @@
     },
 
     "cameras": [
-        {
-            "name": "Concord Street and Grand Ave (Facing North)",
-            "resolution": "640x480",
-            "framerate": "15",
-            "size": "exampleSize1",
-            "location": "44.893142, -93.034320"
-        },
+        
         {
             "name": "Robert Street and Mendota Rd (Facing South)",
             "resolution": "640x480",
