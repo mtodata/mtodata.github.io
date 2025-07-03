@@ -1,7 +1,6 @@
 {
     "name": "I-94 DVD",
-    "location": "placeholder",
-    "dataDownloadLink": "https://example.com",
+    "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=ac830882-6318-4fdd-8c86-a10d7e044a85&origin_path=%2F",
     "metadata": {
         "size": "placeholder"
     },
