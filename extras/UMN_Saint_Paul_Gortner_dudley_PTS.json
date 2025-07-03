@@ -1,0 +1,30 @@
+{
+    "name": "UMN Saint Paul Gortner dudley PTS",
+    "location": "placeholder",
+    "dataDownloadLink": "https://example.com",
+    "metadata": {
+        "size": "placeholder"
+    },
+
+   "cameras": [
+    {
+        "name": "placeholder",
+        "resolution": "1280x960",
+        "framerate": "15",
+        "location": "44.947425, -93.166977"
+    },
+    {
+        "name": "placeholder",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "location": "44.947425, -93.166977"
+    },
+    {
+        "name": "placeholder",
+        "resolution": "1920x1080",
+        "framerate": "15",
+        "location": "44.939148, -93.166948"
+    }
+    ]
+    
+}

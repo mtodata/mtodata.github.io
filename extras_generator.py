@@ -15,7 +15,7 @@ for filename in os.listdir(projects_dir):
 
 # Load the template
 env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('template_v2.html')
+template = env.get_template('extras_template.html')
 
 # Output directory for generated HTML files
 output_dir = 'ExtrasPages'
