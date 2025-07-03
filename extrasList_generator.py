@@ -4,7 +4,7 @@ from jinja2 import Environment, FileSystemLoader
 
 # Load templates from the current directory
 env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('projectList_template.html')
+template = env.get_template('extrasList_template.html')
 
 # Path to the projects folder
 projects_folder = 'extras'
