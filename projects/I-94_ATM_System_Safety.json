@@ -11,25 +11,161 @@
     "metadata": {
         "resolution": "480p",
         "dates": "2012-2014",
-        "size": "1725 GB",
+        "size": "20 TiB",
         "framerate": "10",
         "hardware": "Beholder and Galileo System"
     },
 
     "cameras": [
         {
-            "name": "exampleCamera1",
-            "resolution": "exampleResolution1",
-            "framerate": "exampleFramerate1",
-            "size": "exampleSize1",
-            "location": "exampleLocation1"
+            "name": "I-94, 11th Ave S (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966001, -93.256516"
         },
         {
-            "name": "exampleCamera2",
-            "resolution": "exampleResolution2",
-            "framerate": "exampleFramerate2",
-            "size": "exampleSize2",
-            "location": "exampleLocation1"
+            "name": "I-94, 11th Ave S (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966067, -93.258783"
+        },
+        {
+            "name": "I-94, 3rd Ave (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966521, -93.271926"
+        },
+        {
+            "name": "I-94, 3rd Ave (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966665, -93.274180"
+        },
+        {
+            "name": "I-94, Cedar Ave (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965948, -93.247531"
+        },
+        {
+            "name": "I-94, Hiawatha Ave (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966291, -93.250950"
+        },
+        {
+            "name": "I-94, Park Ave (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965773, -93.263869"
+        },
+        {
+            "name": "I-94, Portland Ave (Eastern) (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965913, -93.266992"
+        },
+        {
+            "name": "I-94, Portland Ave (Western) (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965976, -93.267960"
+        },
+        {
+            "name": "I-394, I-94 S 918 (Facing South)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.973976, -93.288194"
+        },
+        {
+            "name": "I-94, 1st Ave 8331 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966869, -93.274987"
+        },
+        {
+            "name": "I-94, Cedar Ave S 836 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.964393, -93.243488"
+        },
+        {
+            "name": "I-94, E of Portland Ave N 8350 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966127, -93.265988"
+        },
+        {
+            "name": "I-94, Groveland Ave M 8321 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.964935, -93.282790"
+        },
+        {
+            "name": "I-94, Hennepin Lyndale 832 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.964701, -93.287072"
+        },
+        {
+            "name": "I-94, Huron St 8381 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.967209, -93.220368"
+        },
+        {
+            "name": "I-94, Park Ave 8351 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966033, -93.264584"
+        },
+        {
+            "name": "I-94, Portland Ave N 835 (Facing East)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966029, -93.268409"
+        },
+        {
+            "name": "I-94, Riverside Ave 8361 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.964282, -93.233982"
+        },
+        {
+            "name": "I-94, Riverside Ave S 837 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.964296, -93.230810"
+        },
+        {
+            "name": "I-94, TH55 S 8353 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965894, -93.253560"
+        },
+        {
+            "name": "I-94, Tunnel West 1 N 829 (Facing North)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.965564, -93.287793"
+        },
+        {
+            "name": "I-94, Tunnel West 2 N 830 (Facing South)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.967200, -93.288007"
+        },
+        {
+            "name": "I-94, Tunnel West 3 N 831 (Facing North)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.968719, -93.287745"
+        },
+        {
+            "name": "I-94, W of Portland Ave N 8340 (Facing West)",
+            "resolution": "640x480",
+            "framerate": "10",
+            "location": "44.966028, -93.268360"
         }
     ]
 }
