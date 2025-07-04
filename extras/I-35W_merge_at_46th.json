@@ -2,27 +2,15 @@
     "name": "I-35W_merge_at_46th",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=6bd59910-3f64-4e50-b39a-fe89296b0b6b&origin_path=%2FI-35W-+Merge+at+46th+Street%2F",
     "metadata": {
-        "size": "placeholder"
+        "size": "82 GB"
     },
 
    "cameras": [
     {
-        "name": "placeholder",
-        "resolution": "1280x960",
+        "name": "I-35W and 46th St (Five Views Scattered)",
+        "resolution": "640x480",
         "framerate": "15",
-        "location": "44.947425, -93.166977"
-    },
-    {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.947425, -93.166977"
-    },
-    {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.939148, -93.166948"
+        "location": "44.919669, -93.274779"
     }
     ]
     
