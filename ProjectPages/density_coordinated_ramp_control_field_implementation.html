@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Density Coordinated Ramp Control Field Implementation - Project Template</title>
+    <link rel="icon" type="image/x-icon" href="../mndot.png">
+    <script src="https://unpkg.com/@globus/sdk/umd/globus.production.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" />
+    <link rel="stylesheet" href="../styles.css"/>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <style>
+        .project-container {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project-header h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+        .project-meta {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .project-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-details {
+            width: 60%;
+        }
+        .project-map {
+            width: 35%;
+        }
+        .project-map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .project-image {
+            margin-bottom: 20px;
+        }
+        .project-image img {
+            max-height: 300px;
+            max-width: 720px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+        }
+        .download-links {
+            margin-top: 20px;
+        }
+        .download-links a {
+            display: block;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  <div class="layout-container">
+    <header>
+      <div>
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+        <h2 style="color:blanchedalmond;">Density Coordinated Ramp Control Field Implementation</h2>
+      </div>
+      <div class="header-links">
+        <a href="../index.html">Home</a>
+        <a href="../projectList.html">Projects</a>
+        <a href="../download_guide.html">Download Guide</a>
+      </div>
+    </header>
+
+    <div class="layout-content-container">
+      <div class="project-container">
+        <div class="project-header">
+          <h1>Density Coordinated Ramp Control Field Implementation</h1>
+          <div class="project-meta">
+            <p>May 2012 - June 2015 | by John Hourdos, Nikolas Geroliminis, Stephen Zitzow, and Ypatia Stefania Limniati</p>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-details">
+            <div class="project-purpose">
+              <h3>Purpose:</h3>
+              <p>This project evaluated the UMD KAdaptive ramp metering algorithm on Twin Cities freeways, ultimately replacing the existing Stratified Zone algorithm system-wide, while plans to test the UMN Density algorithm were deferred due to technical and scheduling issues.</p>
+            </div>
+
+            <div class="project-image">
+              <img src="../ProjectImages/Ramp_Meter.jpg" alt="Image of a ramp meter: a small traffic light (red) installed on a highway on-ramp">
+            </div>
+
+            <div class="download-links">
+              <h3>Links:</h3>
+              <strong>Full Paper Download</strong><a href="https://www.cts.umn.edu/research/project/field-implementation-testing-and-refinement-of-density-based-coordinated-ramp-control-strategy" target="_blank">Research Paper</a>
+              <strong>Raw Data S3 bucket</strong><a href="https://app.globus.org/file-manager?origin_id=2d814416-c230-4b85-b37f-cd4b54d378e3&origin_path=%2F" target="_blank">Download Data via Globus</a>
+              <strong>Total Raw Data Size:</strong> 772 GiB
+            </div>
+
+          <div class="project-cameras">
+            <h3>Camera Information:</h3>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and 36th St Bridge</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.937797, -93.349021</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and 50th St Bridge</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.912447, -93.350551</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and Auto Club Way</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.933077, -93.349460</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and Cedar Lake Trail Bridge (Greenway)</span></p>
+                <p><strong>Resolution:</strong> 720x480</p>
+                <p><strong>Framerate:</strong> 7</p>
+                <p><strong>Location:</strong> 44.941283, -93.347924</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and Minnetonka Blvd</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.949531, -93.347558</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100 and W 41st St Pedestrian Bridge</span></p>
+                <p><strong>Resolution:</strong> 640x480</p>
+                <p><strong>Framerate:</strong> 15</p>
+                <p><strong>Location:</strong> 44.926644, -93.349301</p>
+                
+                <p><br></p>
+              </div>
+            
+              <div class="camera-entry">
+                <p><span class = "camera-name"><strong>Camera Name:</strong> Hwy 100, N of TH7</span></p>
+                <p><strong>Resolution:</strong> 720x480</p>
+                <p><strong>Framerate:</strong> 7</p>
+                <p><strong>Location:</strong> 44.948185, -93.347877</p>
+                
+                <p><br></p>
+              </div>
+            
+          </div>
+
+          <div class="project-map">
+            <h3>Location</h3>
+            <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=W 50th St Bridge luminary, Approximately, W 48th St sound wall (Backup), Morningside Rd sound wall (Backup), W 41st St pedestrian bridge or sound wall, Park Center Blvd luminary, W 36th St Bridge overpass, Cedar Lake Trail Bridge overpass, Approximately between TH-7 and Co Rd 5 (Minnetonka Blvd), Approximately at the TH-100 NB exit to Co Rd 5 (Minnetonka Blvd)" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function initMap() {
+      // The map will be displayed in the iframe based on the location provided in the template.
+    }
+  </script>
+</body>
+</html>
