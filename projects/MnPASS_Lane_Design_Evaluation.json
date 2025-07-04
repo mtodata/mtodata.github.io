@@ -12,7 +12,7 @@
         "metadata": {
             "resolution": "N",
             "dates": "Y",
-            "size": "N",
+            "size": "Y",
             "framerate": "N",
             "hardware": "N"
         },
@@ -30,7 +30,7 @@
     "metadata": {
         "resolution": "1080p",
         "dates": "May 2011 - June 2014",
-        "size": "2770 GB",
+        "size": "1.74 TB",
         "framerate": "15",
         "hardware": "Traffic cameras"
     },
