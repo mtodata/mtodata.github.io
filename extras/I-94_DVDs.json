@@ -2,27 +2,13 @@
     "name": "I-94 DVD",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=ac830882-6318-4fdd-8c86-a10d7e044a85&origin_path=%2F",
     "metadata": {
-        "size": "placeholder"
+        "size": "294 GB"
     },
 
    "cameras": [
     {
-        "name": "placeholder",
-        "resolution": "1280x960",
-        "framerate": "15",
-        "location": "44.947425, -93.166977"
-    },
-    {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.947425, -93.166977"
-    },
-    {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.939148, -93.166948"
+        "name": "NO CAMERA INFO AVAILABLE; CONTAINS NEAR MISSES, ACCIDENTS, ETC",
+        
     }
     ]
     
