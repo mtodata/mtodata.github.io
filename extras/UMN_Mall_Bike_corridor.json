@@ -2,27 +2,57 @@
     "name": "UMN Mall Bike corridor",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=1ae278eb-7d96-405a-8cd1-cbda045e2aef&origin_path=%2F",
     "metadata": {
-        "size": "placeholder"
+        "size": "474 GB"
     },
 
    "cameras": [
     {
-        "name": "placeholder",
-        "resolution": "1280x960",
+        "name": "15th and University (Facing South)",
+        "resolution": "640x480",
         "framerate": "15",
-        "location": "44.947425, -93.166977"
+        "location": "44.978982, -93.235190"
     },
     {
-        "name": "placeholder",
-        "resolution": "1920x1080",
+        "name": "15th Ave SE at 4th St SE (Facing East)",
+        "resolution": "640x480",
         "framerate": "15",
-        "location": "44.947425, -93.166977"
+        "location": "44.979968, -93.234418"
     },
-    {
-        "name": "placeholder",
-        "resolution": "1920x1080",
+       {
+        "name": "Bruininks Hall and Washington AVe Bridge (Facing West)",
+        "resolution": "640x480",
         "framerate": "15",
-        "location": "44.939148, -93.166948"
+        "location": "44.973682, -93.237442"
+    },
+       {
+        "name": "Church and Scholars Walk (Facing North)",
+        "resolution": "640x480",
+        "framerate": "15",
+        "location": "44.974918, -93.233895"
+    },
+       {
+        "name": "Ford and Murphy Hall (Facing West)",
+        "resolution": "640x480",
+        "framerate": "15",
+        "location": "44.974102, -93.234255"
+    },
+       {
+        "name": "Kolthoff (Three Locations)",
+        "resolution": "640x480",
+        "framerate": "15",
+        "location": "44.973682, -93.237442"
+    },
+       {
+        "name": "Northrop Mall (Facing West)",
+        "resolution": "640x480",
+        "framerate": "15",
+        "location": "44.974069, -93.235720"
+    },
+       {
+        "name": "Washington and Union St (Facing West)",
+        "resolution": "640x480",
+        "framerate": "15",
+        "location": "44.973588, -93.231900"
     }
     ]
     
