@@ -2,27 +2,57 @@
     "name": "I-94 Beholder and V2I",
     "dataDownloadLink": "https://app.globus.org/file-manager?origin_id=8e8f4b46-0dca-406c-8edb-e4370ca11547&origin_path=%2F",
     "metadata": {
-        "size": "placeholder"
+        "size": "508 GB"
     },
 
    "cameras": [
     {
-        "name": "placeholder",
-        "resolution": "1280x960",
-        "framerate": "15",
-        "location": "44.947425, -93.166977"
+        "name": "I-35W, 38th St M 6211 (Facing South)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.935969, -93.274692"
     },
     {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.947425, -93.166977"
+        "name": "I-35W, 42nd St E 621 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.927421, -93.274520"
     },
     {
-        "name": "placeholder",
-        "resolution": "1920x1080",
-        "framerate": "15",
-        "location": "44.939148, -93.166948"
+        "name": "I-35W, 46th St M 619 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.919005, -93.274804"
+    },
+       {
+        "name": "I-35W, 50th St W 618 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.912685, -93.275127"
+    },
+       {
+        "name": "I-35W, 86th St M 6130 (Facing South)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.849088, -93.298301"
+    },
+       {
+        "name": "I-35W, Burnsville Pkwy W 607 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.760224, -93.289246"
+    },
+       {
+        "name": "I-35W, N of Cliff Rd M 6090 (Facing South)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.788568, -93.288796"
+    },
+       {
+        "name": "I-35W, S of 98th St M 6101 (Facing North)",
+        "resolution": "640x480",
+        "framerate": "10",
+        "location": "44.818016, -93.291349"
     }
     ]
     
